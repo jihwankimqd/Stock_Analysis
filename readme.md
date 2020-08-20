@@ -17,17 +17,18 @@
     XR : USD to KRW exchange rate
     XR_Pct_Change : Percentage change in XR relative to previous date
 
-    Stock data is not available during weekends and holidays. Therefore, the values for weekends and holidays had been forward 
-    filled, and therefore carry the same value as the nearest last valid value. This is reflected in the dataset.
+    Stock data is not available during weekends and holidays. Therefore, the values for weekends and 
+    holidays had been forward filled, and therefore carry the same value as the nearest last valid value. 
 
 # Motivation
     In the recent months, I made over 50% of my initial amount by trading stocks over a short period of time. 
     Therefore, I wanted to apply my ad-hoc logic to a systematic/reproducible system, hence this project.
 
 # Method
-    The stock data for SK Innovation (096770) was scraped using BeautifulSoup from Naver Finance. 
-    Other data such as the Dow Jones Index, South Korean Interest Rates, WTI Oil Prices, USD/KRW, 
-    and Exhcange Rates were all found online from their respective websites.
+    The stock data for SK Innovation (096770) was scraped using BeautifulSoup from Naver Finance. The data
+    had headers in Korean, which was translated appropriately and the respective words are explained in the
+    Glossary above. Other data such as the Dow Jones Index, South Korean Interest Rates, WTI Oil Prices, 
+    USD/KRW, and Exhcange Rates were all found online from their respective websites. 
 
     All data had different formats and shapes, so data was preprocessed in the Data_Preprocessing part, 
     and the processed data was explored, and a model was trained in the EDA_Model part. 
