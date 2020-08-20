@@ -21,8 +21,8 @@
     holidays had been forward filled, and therefore carry the same value as the nearest last valid value. 
 
 # Motivation
-    In the recent months, I made over 50% of my initial amount by trading stocks over a short period of time. 
-    Therefore, I wanted to apply my ad-hoc logic to a systematic/reproducible system, hence this project.
+    In the recent months, I made over 50% returns by trading stocks. Therefore, I wanted to apply my 
+    ad-hoc logic to a systematic/reproducible system, hence this project.
 
 # Method
     The stock data for SK Innovation (096770) was scraped using BeautifulSoup from Naver Finance. The data
